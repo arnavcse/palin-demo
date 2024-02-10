@@ -18,7 +18,7 @@ def main():
     st.title("Palindrome Classifier with Neural Network")
 
     # Load the trained model from the pickle file
-    pickle_file_path = "/Users/arnav/Desktop/DL NLP Assignment 1/Working/neural_network_model.pkl"
+    pickle_file_path ="neural_network_model.pkl"
     with open(pickle_file_path, 'rb') as f:
         nn = pickle.load(f)
 
