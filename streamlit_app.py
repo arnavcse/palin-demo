@@ -70,7 +70,7 @@ if classify_button:
         st.write("⤷ ❌ **_•Not Palindrome_** 😔")
 
 # Add the message below the Classify button
-st.markdown("• **Made in ❤️ by 4 IIT-Bombay students.**")
+st.markdown("• **Made with ❤️ by 4 IIT-Bombay students.**")
 
 st.markdown("• **Hosted in ⛅️**")
 
