@@ -36,13 +36,13 @@ def sigmoid_derivative(x):
     return x * (1 - x)
 
 
-st.title("**🌲 ✷Palindrome Classifier✷  🌲**")
+st.title("**🌲 •Palindrome Classifier•  🌲**")
 
 # Using Markdown for the input text to include an emoji
 user_input = st.text_input("✷ ⭕ **Enter a _10-bit_ binary string (e.g., 1010101010 )** 🚀 **★**", "")
 
 # Display the "Classify" button with larger size
-classify_button = st.button("✷ **⭐  Classify 🧠** ✷", key="classify_button", help="Click to classify")
+classify_button = st.button(" **⭐  •Classify• 🧠** ", key="classify_button", help="Click to classify")
 
 # Adjusting the size of the classify button using CSS
 st.markdown(
