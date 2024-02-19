@@ -65,7 +65,7 @@ if classify_button:
     output_layer = sigmoid(np.dot(hidden_layer, weights_hidden_output) + bias_hidden_output)
     pred = output_layer[0]
     if pred > thresh:
-        st.write("✅ Palindrome 🙌🏼 🚀")
+        st.write("✅ Palindrome 🙌🏼 ")
     else:
         st.write("❌ Not palindrome 😔 ")
 
