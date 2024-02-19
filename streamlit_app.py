@@ -65,12 +65,13 @@ if classify_button:
     output_layer = sigmoid(np.dot(hidden_layer, weights_hidden_output) + bias_hidden_output)
     pred = output_layer[0]
     if pred > thresh:
-        st.write("✅ **_Palindrome_** 🙌🏼  🚀")
+        st.write("✅ **_⤷ Palindrome_** 🙌🏼  🚀")
     else:
-        st.write("❌ **_Not palindrome_** 😔 ")
+        st.write("❌ **_⤷ Not palindrome_** 😔 ")
 
 # Add the message below the Classify button
-st.markdown("**Made in ❤️ by 4 IIT-Bombay students.**")
-st.markdown("**Hosted in ⛅️**")
+st.markdown("⤷ **Made in ❤️ by 4 IIT-Bombay students.**")
+st.markdown("**⤷ Hosted in ⛅️**")
+
 # Display 1.gif image
 st.image(gif_image_path, use_column_width=True)
