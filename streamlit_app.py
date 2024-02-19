@@ -2,8 +2,8 @@ import numpy as np
 import streamlit as st
 
 # Load your image files
-demo_image_path = "/Users/arnav/Desktop/DL NLP Assignment 1/Working/demo.jpeg"
-gif_image_path = "/Users/arnav/Desktop/DL NLP Assignment 1/Working/1.gif"
+demo_image_path = "demo.jpeg"
+gif_image_path = "1.gif"
 
 # Display demo.png image
 st.image(demo_image_path, use_column_width=True)
