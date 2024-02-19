@@ -70,7 +70,7 @@ if classify_button:
         st.write("❌ Not palindrome 😔 ")
 
 # Add the message below the Classify button
-st.markdown("**Made w/ ❤️ by 4 IIT-Bombay students for CS _772_.**")
+st.markdown("⦿ **Made w/ ❤️ by 4 IIT-Bombay students for CS _772_.** ⦿")
 
 # Display 1.gif image
 st.image(gif_image_path, use_column_width=True)
