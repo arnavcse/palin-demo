@@ -2,8 +2,8 @@ import numpy as np
 import streamlit as st
 
 # Load your image files
-demo_image_path = "demo.jpeg"
-gif_image_path = "1.gif"
+demo_image_path = "/Users/arnav/Desktop/DL NLP Assignment 1/Working/demo.jpeg"
+gif_image_path = "/Users/arnav/Desktop/DL NLP Assignment 1/Working/1.gif"
 
 # Display demo.png image
 st.image(demo_image_path, use_column_width=True)
@@ -38,11 +38,11 @@ def sigmoid_derivative(x):
 
 st.title("**🌲 Palindrome Classifier  🌲**")
 
-# Using Markdown for the input text to adjust font size and make it bold
-user_input = st.text_input("⭕ **Enter a 10-bit binary string (e.g., 1010101010 ):** 🚀 ★", "")
+# Using Markdown for the input text to include an emoji
+user_input = st.text_input("⭕ **Enter a _10-bit_ binary string (e.g., 1010101010 )** 🚀 **★**", "")
 
 # Display the "Classify" button with larger size
-classify_button = st.button("⭐  **Classify** 🧠", key="classify_button", help="Click to classify")
+classify_button = st.button("**⭐  Classify 🧠**", key="classify_button", help="Click to classify")
 
 # Adjusting the size of the classify button using CSS
 st.markdown(
@@ -65,12 +65,12 @@ if classify_button:
     output_layer = sigmoid(np.dot(hidden_layer, weights_hidden_output) + bias_hidden_output)
     pred = output_layer[0]
     if pred > thresh:
-        st.write("✅ Palindrome 🙌🏼 ")
+        st.write("✅ **_Palindrome_** 🙌🏼  🚀")
     else:
-        st.write("❌ Not palindrome 😔 ")
+        st.write("❌ **_Not palindrome_** 😔 ")
 
 # Add the message below the Classify button
-st.markdown("⦿ **Made w/ ❤️ by 4 IIT-Bombay students for CS _772_.** ⦿")
+st.markdown("**Made in ❤️ by _4_ IIT-Bombay students.**")
 
 # Display 1.gif image
 st.image(gif_image_path, use_column_width=True)
