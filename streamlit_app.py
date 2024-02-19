@@ -71,6 +71,6 @@ if classify_button:
 
 # Add the message below the Classify button
 st.markdown("**Made in ❤️ by 4 IIT-Bombay students.**")
-
+st.markdown("**Hosted in ☁️.**")
 # Display 1.gif image
 st.image(gif_image_path, use_column_width=True)
